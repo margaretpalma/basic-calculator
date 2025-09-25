@@ -13,7 +13,7 @@ public class BasicCalculator {
         System.out.println("Enter the second number: "); //asking for second number
         double secondNumber = scanner.nextDouble();
 
-        System.out.println("Choose one: Addition, Subtraction, Multiplication, or Division? ");
+        System.out.println("Choose one:[A]ddition,[S]ubtraction,[M]ultiplication, or [D]ivision?");
         String operation = scanner.next();  //string operation is whatever you type goes into a variable named operation
         //String because the words are strings not numbers
 
